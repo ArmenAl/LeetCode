@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>LeetCode1342</module>
+        <module>LeetCode1295</module>
     </modules>
 
 

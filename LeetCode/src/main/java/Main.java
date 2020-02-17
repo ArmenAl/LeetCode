@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-
+// Leet Code 1342
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Skriv in tal: ");
