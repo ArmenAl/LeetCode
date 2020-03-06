@@ -11,6 +11,8 @@
     <modules>
         <module>LeetCode1342</module>
         <module>LeetCode1295</module>
+        <module>LeetCode1266</module>
+        <module>LeetCode1323</module>
     </modules>
 
 
