@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1/LeetCode1.iml" filepath="$PROJECT_DIR$/LeetCode1/LeetCode1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1108/LeetCode1108.iml" filepath="$PROJECT_DIR$/LeetCode1108/LeetCode1108.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1221/LeetCode1221.iml" filepath="$PROJECT_DIR$/LeetCode1221/LeetCode1221.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1252/LeetCode1252.iml" filepath="$PROJECT_DIR$/LeetCode1252/LeetCode1252.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode1266/LeetCode1266.iml" filepath="$PROJECT_DIR$/LeetCode1266/LeetCode1266.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1266n/LeetCode1266n.iml" filepath="$PROJECT_DIR$/LeetCode1266n/LeetCode1266n.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1281/LeetCode1281.iml" filepath="$PROJECT_DIR$/LeetCode1281/LeetCode1281.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1290/LeetCode1290.iml" filepath="$PROJECT_DIR$/LeetCode1290/LeetCode1290.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1295/LeetCode1295.iml" filepath="$PROJECT_DIR$/LeetCode1295/LeetCode1295.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1299/LeetCode1299.iml" filepath="$PROJECT_DIR$/LeetCode1299/LeetCode1299.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode13/LeetCode13.iml" filepath="$PROJECT_DIR$/LeetCode13/LeetCode13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1313/LeetCode1313.iml" filepath="$PROJECT_DIR$/LeetCode1313/LeetCode1313.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1323/LeetCode1323.iml" filepath="$PROJECT_DIR$/LeetCode1323/LeetCode1323.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1351/LeetCode1351.iml" filepath="$PROJECT_DIR$/LeetCode1351/LeetCode1351.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode1365/LeetCode1365.iml" filepath="$PROJECT_DIR$/LeetCode1365/LeetCode1365.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode7/LeetCode7.iml" filepath="$PROJECT_DIR$/LeetCode7/LeetCode7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode709/LeetCode709.iml" filepath="$PROJECT_DIR$/LeetCode709/LeetCode709.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode771/LeetCode771.iml" filepath="$PROJECT_DIR$/LeetCode771/LeetCode771.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode9/LeetCode9.iml" filepath="$PROJECT_DIR$/LeetCode9/LeetCode9.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode_1266/LeetCode_1266.iml" filepath="$PROJECT_DIR$/LeetCode_1266/LeetCode_1266.iml" />
     </modules>
   </component>

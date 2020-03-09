@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/LeetCode1323/pom.xml" />
+        <option value="$PROJECT_DIR$/LeetCode1342/pom.xml" />
       </set>
     </option>
   </component>
