@@ -1,8 +1,5 @@
 package LeetCode_Easy;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class LeetCode_1295 {
     public static void main(String[] args) {
         int[] n = {12, 345, 2, 6, 7896};

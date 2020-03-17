@@ -12,24 +12,24 @@ public class LeetCode_1252 {
 
     public static int oddCells(int n, int m, int[][] indices) {
         int res = 0;
-        int[][] zero = new int[n][m];
         int[][] matrix = new int[n][m];
 
-        for (int i = 0; i < n; i++) {
+        for (int[] rowCoc: indices) {
             for (int j = 0; j < m; j++) {
-                zero[i][j] = 0;
+                matrix[rowCoc[0]][j]++;
             }
-            System.out.println(Arrays.toString(zero[i]));
-
+            for (int j = 0; j < n; j++) {
+                matrix[j][rowCoc[1]]++;
+            }
         }
-
-        for (int p = 0; p < indices.length; p++) {
-            int[] pair = indices[p];
-            System.out.println(Arrays.toString(pair));
-            matrix[pair[p]][pair[p]] = zero[pair[p]][pair[p]] + 1;
-            //System.out.println(Arrays.toString(matrix[i]));
+        for (int j = 0; j < n; j++) {
+            for (int k = 0; k < m; k++) {
+                if (matrix[j][k] % 2 != 0) {
+                    res++;
+                }
+            }
         }
-
+        System.out.println(res);
         return res;
     }
 }

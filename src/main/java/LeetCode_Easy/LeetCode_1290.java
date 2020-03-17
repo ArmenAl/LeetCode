@@ -1,20 +1,23 @@
 package LeetCode_Easy;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LeetCode_1290 {
     public static void main(String[] args) {
-        LinkedList head = new LinkedList();
+        ListNode l1 = new ListNode(1);
+        ListNode l2 = new ListNode(0);
+        ListNode l3 = new ListNode(1);
 
-        head.add(1);
-        head.add(0);
-        head.add(1);
-        //getDecimalValue();
-        // TODO
+        l1.next = l2;
+        l2.next = l3;
+
+        getDecimalValue(l1);
     }
 
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
@@ -24,10 +27,22 @@ public class LeetCode_1290 {
     }
 
     public static int getDecimalValue(ListNode head) {
-        //Iterator<String> iterator=list.iterator();
-        //while(iterator.hasNext()){
-        //    System.out.println(iterator.next());
-        //}
-        return 0;
+        ListNode tmp = head;
+        int counter = 0;
+        while (tmp != null) {
+            tmp = tmp.next;
+            counter++;
+        }
+
+        ListNode tmp1 = head;
+        int value = 0;
+        while (tmp1 != null) {
+            value += tmp1.val * (Math.pow(2, counter - 1));
+            tmp1 = tmp1.next;
+            counter--;
+        }
+
+        System.out.println(value);
+        return value;
     }
 }
