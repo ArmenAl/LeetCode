@@ -1,10 +1,5 @@
 package LeetCode_Easy;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-
 public class LeetCode_1290 {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);

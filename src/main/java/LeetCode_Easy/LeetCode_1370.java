@@ -2,7 +2,7 @@ package LeetCode_Easy;
 
 import java.util.Arrays;
 
-public class LeetCode_5336{ // 5336
+public class LeetCode_1370 { // Todo
     public static void main(String[] args) {
         String s = "aaaabbbbcccc";
         increasingDecreasingString(s);
